@@ -1,7 +1,6 @@
 {
-  "name": "amazona",
+  "name": "mernecommerce",
   "version": "1.0.0",
-  "description": "Demo : https://amazonaapp.herokuapp.com/",
   "main": "index.js",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -28,16 +27,9 @@
     "build": "rm -rf dist && babel backend -d dist",
     "heroku-postbuild": "npm run build && cd frontend && npm install && npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/basir/amazona.git"
-  },
-  "author": "",
+
+  "author": "rahber isafi",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/basir/amazona/issues"
-  },
-  "homepage": "https://github.com/basir/amazona#readme",
   "engines": {
     "node": "12.4.0",
     "npm": "6.9.0"

@@ -34,7 +34,7 @@ function App() {
             <button onClick={openMenu}>
               &#9776;
         </button>
-            <Link to="/" >amazona</Link>
+            <Link to="/" >Ecommerce</Link>
           </div>
           <div className="header-links">
             <a href="cart.html">Cart</a>
